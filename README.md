@@ -1,7 +1,7 @@
 ## <div>Welcome!</div>
 ### - Frontend Developer
 ### - 🔥 2+ year exp
-### [![My Skills](https://skillicons.dev/icons?i=html,css,js,node,sass,bootstrap,tailwind,figma,github,git,vscode)](https://skillicons.dev)
+### [![My Skills](https://skillicons.dev/icons?i=html,css,js,nodejs,sass,bootstrap,tailwind,figma,github,git,vscode)](https://skillicons.dev)
 
 <details>
   
