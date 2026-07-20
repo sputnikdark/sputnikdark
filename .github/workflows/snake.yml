@@ -1,8 +1,10 @@
-name: Generate Contribution Snake
+name: GitHub Snake Game
+
+permissions:
+  contents: write
 
 on:
   schedule:
-    # Run every 24 hours
     - cron: "0 0 * * *"
   workflow_dispatch:
   push:
@@ -11,22 +13,23 @@ on:
 
 jobs:
   generate:
-    permissions:
-      contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
 
     steps:
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v3
+      - name: Generate GitHub Contributions Snake Animations
+        uses: Platane/snk@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: ClausMaslov
           outputs: |
-            github-contribution-grid-snake.svg
-            github-contribution-grid-snake-dark.svg?palette=github-dark
+            github-snake.svg
+            github-snake-dark.svg?palette=github-dark
+            ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Post-process SVGs (Fix Y-offset bug & enhance dark theme)
         run: |
@@ -58,14 +61,14 @@ jobs:
             fs.writeFileSync(filename, text, 'utf8');
           }
 
-          processSvg('github-contribution-grid-snake.svg', false);
-          processSvg('github-contribution-grid-snake-dark.svg', true);
+          processSvg('github-snake.svg', false);
+          processSvg('github-snake-dark.svg', true);
           "
 
-      - name: Commit and Push changes
+      - name: Push updates
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg || true
-          git commit -m "chore: update contribution snake animation" || exit 0
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add github-snake.svg github-snake-dark.svg ocean.gif || true
+          git commit -m "Update snake animation [skip ci]" || exit 0
           git push
