@@ -28,6 +28,40 @@ jobs:
             github-contribution-grid-snake.svg
             github-contribution-grid-snake-dark.svg?palette=github-dark
 
+      - name: Post-process SVGs (Fix Y-offset bug & enhance dark theme)
+        run: |
+          node -e "
+          const fs = require('fs');
+
+          function processSvg(filename, isDark) {
+            if (!fs.existsSync(filename)) return;
+            let text = fs.readFileSync(filename, 'utf8');
+            text = text.replace(/,-16px\)/g, ',0px)');
+
+            if (isDark) {
+              text = text.replace(
+                /:root\{[^}]+\}/,
+                ':root{--cb:#21262d;--cs:#c084fc;--c-head:#f0abfc;--ce:#161b22;--c0:#161b22;--c1:#0e4429;--c2:#006d32;--c3:#26a641;--c4:#39d353}'
+              );
+            } else {
+              text = text.replace(
+                /:root\{[^}]+\}/,
+                ':root{--cb:#e1e4e8;--cs:#8b5cf6;--c-head:#a855f7;--ce:#ebedf0;--c0:#ebedf0;--c1:#9be9a8;--c2:#40c463;--c3:#30a14e;--c4:#216e39}'
+              );
+            }
+
+            if (!text.includes('@media (prefers-color-scheme: dark)')) {
+              const darkMedia = '@media (prefers-color-scheme: dark){:root{--cb:#21262d;--cs:#c084fc;--c-head:#f0abfc;--ce:#161b22;--c0:#161b22;--c1:#0e4429;--c2:#006d32;--c3:#26a641;--c4:#39d353}}';
+              text = text.replace('</style>', darkMedia + '</style>');
+            }
+
+            fs.writeFileSync(filename, text, 'utf8');
+          }
+
+          processSvg('github-contribution-grid-snake.svg', false);
+          processSvg('github-contribution-grid-snake-dark.svg', true);
+          "
+
       - name: Commit and Push changes
         run: |
           git config user.name "github-actions[bot]"
