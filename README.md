@@ -11,14 +11,21 @@
 
   <div>
 
-  #### 
-
 👋 Привет! я люблю играть в Minecraft ❤️. <br>
 💻 Frontend-разработчик с опытом больше года. <br>
 🎥 В свободное время смотрю Лололошку на YouTube. <br>
 🚀 Создаю проекты и постоянно учусь новому. <br>
 
-    
   </div>
 
 </details>
+
+<br />
+
+### 🐍 Contribution Graph
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="github-contribution-grid-snake.svg" width="100%">
+</picture>
