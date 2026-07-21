@@ -22,7 +22,13 @@
 
 <br />
 
-### 🐍 Contribution Graph
+### Contribution Graph
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-green.svg">
+  <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-green-animate.svg">
+  <img alt="3d, Bro" src="profile-3d-contrib/profile-green-animate.svg">
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg">
