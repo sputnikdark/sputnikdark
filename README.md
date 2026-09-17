@@ -24,7 +24,7 @@ Currently preparing for dual vocational training (**Ausbildung zum Fachinformati
 
 - **Languages:** JavaScript (ES6+), TypeScript, HTML5, CSS3 / SCSS
 - **Backend & APIs:** Node.js, Express.js, NestJS fundamentals, RESTful APIs
-- **Storage & State:** LocalStorage, relational and NoSQL database concepts
+- **Storage & State:** LocalStorage, in-memory caching, relational and NoSQL database concepts
 - **Tools & Workflow:** Git, GitHub, VS Code, Chrome DevTools, Postman
 
 ---
@@ -32,6 +32,7 @@ Currently preparing for dual vocational training (**Ausbildung zum Fachinformati
 ### Featured Projects
 
 - **[GITFINDER](https://github.com/sputnikdark/GITFINDER)** – Dynamic web application for searching GitHub user profiles via the official REST API. Built with object-oriented JavaScript (ES6 classes), `async/await`, dynamic DOM manipulation, and robust error handling.
+- **[Währungsrechner (Currency Converter)](https://github.com/sputnikdark/currency-converter)** – Real-time currency exchange calculator with German UI. Features asynchronous REST API integration (`fetch()`), in-memory caching (`Map`), and responsive card design.
 - **[TodoApp](https://github.com/sputnikdark/TodoApp)** – Interactive task manager with full state lifecycle management (add, complete, remove) and persistent client-side storage via `localStorage`.
 - **[Quiz Game](https://github.com/sputnikdark/quiz-game)** – Interactive JavaScript quiz application with dynamic question flow and scoring logic.
 - **[Color Palette Generator](https://github.com/sputnikdark/Color-Palette-Generator)** – Algorithmic color palette generator with clipboard copy integration.
