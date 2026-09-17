@@ -1,18 +1,20 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=3B82F6&center=false&vCenter=true&width=550&lines=Aspiring+Software+Developer;Backend+%26+Full-Stack+Enthusiast;JavaScript+%2F+TypeScript+%2F+Node.js;Preparing+for+Ausbildung+in+Germany)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=3B82F6&center=false&vCenter=true&width=550&lines=Andrii+Rebikov;Software+Development+Enthusiast;JavaScript+%2F+TypeScript+%2F+Node.js;Ausbildung+Fachinformatiker+Anwendungsentwicklung)](https://git.io/typing-svg)
 
 ---
 
-### 👨‍💻 About Me
+### About Me
 
-- 🚀 **Age:** 18 years old, based in Germany.
-- 🎯 **Current Focus:** Backend development & modern web technologies with **JavaScript, TypeScript, and Node.js**.
-- 🛠️ **Learning Path:** Deepening knowledge in server-side architectures, RESTful APIs, and modular backend frameworks (**Express.js, NestJS**), as well as relational and NoSQL databases.
-- 🎓 **Goal:** Dual vocational training (*Ausbildung zum Fachinformatiker für Anwendungsentwicklung*) starting 2027.
-- 🌐 **Languages:** German (currently advancing to B2 level), English (proficient in technical documentation), Ukrainian & Russian (native).
+Aspiring software developer based in Erfurt, Germany, focused on backend logic, clean architecture, and modern web technologies using **JavaScript, TypeScript, and Node.js**.
+
+Currently preparing for dual vocational training (**Ausbildung zum Fachinformatiker für Anwendungsentwicklung**).
+
+- **Technical Focus:** Server-side logic, RESTful APIs, and modular backend frameworks (**Express.js, NestJS**)
+- **Languages:** German (B1 completed, advancing to B2), English (proficient in technical documentation), Ukrainian & Russian (native)
+- **Contact:** [andriirebikov@gmail.com](mailto:andriirebikov@gmail.com)
 
 ---
 
-### 💻 Tech Stack & Tools
+### Tech Stack & Tools
 
 <p align="left">
   <a href="https://skillicons.dev">
@@ -21,22 +23,22 @@
 </p>
 
 - **Languages:** JavaScript (ES6+), TypeScript, HTML5, CSS3 / SCSS
-- **Backend & APIs:** Node.js, Express.js, NestJS fundamentals, REST APIs
+- **Backend & APIs:** Node.js, Express.js, NestJS fundamentals, RESTful APIs
 - **Storage & State:** LocalStorage, relational and NoSQL database concepts
 - **Tools & Workflow:** Git, GitHub, VS Code, Chrome DevTools, Postman
 
 ---
 
-### 📌 Featured Projects
+### Featured Projects
 
-- 🔍 **[GITFINDER](https://github.com/sputnikdark/GITFINDER)** – Dynamic web application for searching GitHub user profiles via the official REST API. Built with object-oriented JavaScript (ES6 classes), `async/await`, dynamic DOM manipulation, and error handling.
-- 📝 **[TodoApp](https://github.com/sputnikdark/TodoApp)** – Interactive task manager with full state lifecycle management (add, complete, remove) and persistent client-side storage via `localStorage`.
-- 🎮 **[Quiz Game](https://github.com/sputnikdark/quiz-game)** – Interactive JavaScript quiz application with dynamic question flow and scoring logic.
-- 🎨 **[Color Palette Generator](https://github.com/sputnikdark/Color-Palette-Generator)** – Algorithmic color palette generator with clipboard copy integration.
+- **[GITFINDER](https://github.com/sputnikdark/GITFINDER)** – Dynamic web application for searching GitHub user profiles via the official REST API. Built with object-oriented JavaScript (ES6 classes), `async/await`, dynamic DOM manipulation, and robust error handling.
+- **[TodoApp](https://github.com/sputnikdark/TodoApp)** – Interactive task manager with full state lifecycle management (add, complete, remove) and persistent client-side storage via `localStorage`.
+- **[Quiz Game](https://github.com/sputnikdark/quiz-game)** – Interactive JavaScript quiz application with dynamic question flow and scoring logic.
+- **[Color Palette Generator](https://github.com/sputnikdark/Color-Palette-Generator)** – Algorithmic color palette generator with clipboard copy integration.
 
 ---
 
-### 📊 Contribution Activity
+### Contribution Activity
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-green.svg">
