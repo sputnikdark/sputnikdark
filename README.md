@@ -31,11 +31,11 @@ Currently preparing for dual vocational training (**Ausbildung zum Fachinformati
 
 ### Featured Projects
 
+- **[Products REST API](https://github.com/sputnikdark/products-api-typescript)** – Modular RESTful API built with Node.js, Express, and TypeScript. Implements CRUD routing, typed request handling, async file storage (`fs/promises`), and custom file logging.
 - **[GITFINDER](https://github.com/sputnikdark/GITFINDER)** – Dynamic web application for searching GitHub user profiles via the official REST API. Built with object-oriented JavaScript (ES6 classes), `async/await`, dynamic DOM manipulation, and robust error handling.
 - **[Currency Converter](https://github.com/sputnikdark/currency-converter)** – Simple currency calculator with German interface. Fetches live rates via the ExchangeRate API using `async/await` and DOM events.
 - **[TodoApp](https://github.com/sputnikdark/TodoApp)** – Interactive task manager with full state lifecycle management (add, complete, remove) and persistent client-side storage via `localStorage`.
 - **[Quiz Game](https://github.com/sputnikdark/quiz-game)** – Interactive JavaScript quiz application with dynamic question flow and scoring logic.
-- **[Color Palette Generator](https://github.com/sputnikdark/Color-Palette-Generator)** – Algorithmic color palette generator with clipboard copy integration.
 
 ---
 
